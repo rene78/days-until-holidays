@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Days till vacations</title>
+  <script src='main.js' defer></script>
+  <style>
+    .alert {
+      animation:blinkingText 0.8s infinite;
+    }
+
+    @keyframes blinkingText {
+      0%{color: red;}
+      49%{color: transparent;}
+      50%{color: transparent;}
+      99%{color:transparent}
+      100%{color: red;}
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Days until vacations</h1>
+  <p><span id="days"></span> days to holidays</p>
+  <h2>Enter start date of your holidays</h2>
+  <input type="date" name="" id="holiday-begin-selector" value="2020-11-11">
+</body>
+
+</html>
